@@ -6,7 +6,7 @@ fs.readFile(path.join(__dirname, 'external_data.json'), (err, data) => {
     if (err) {
         console.error('파일 읽는 중 오류 발생', err)
         return
-    }
+    }   
     //읽어온 파일의 텍스트를 data로 넘겨받는다.
     console.log(data)
 
